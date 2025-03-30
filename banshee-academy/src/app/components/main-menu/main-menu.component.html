@@ -1,0 +1,51 @@
+<!-- src/app/components/main-menu/main-menu.component.html -->
+<div class="main-container">
+  <div class="header">
+    <h1>Banshee Academy</h1>
+    <p>Learn resource costs for all races</p>
+  </div>
+  
+  <div class="race-selection">
+    <div class="race-row">
+      <!-- First row: Undead and Human -->
+      <div class="race-button" (click)="selectRace(races[0])">
+        <img [src]="getRaceIcon(races[0])" [alt]="races[0] + ' icon'">
+        <span>{{ races[0] }}</span>
+        <div class="best-streak">
+          Best: {{ getBestStreak(races[0]) }}
+        </div>
+      </div>
+      
+      <div class="race-button" (click)="selectRace(races[1])">
+        <img [src]="getRaceIcon(races[1])" [alt]="races[1] + ' icon'">
+        <span>{{ races[1] }}</span>
+        <div class="best-streak">
+          Best: {{ getBestStreak(races[1]) }}
+        </div>
+      </div>
+    </div>
+    
+    <div class="race-row">
+      <!-- Second row: Night Elf and Orc -->
+      <div class="race-button" (click)="selectRace(races[2])">
+        <img [src]="getRaceIcon(races[2])" [alt]="races[2] + ' icon'">
+        <span>{{ races[2] }}</span>
+        <div class="best-streak">
+          Best: {{ getBestStreak(races[2]) }}
+        </div>
+      </div>
+      
+      <div class="race-button" (click)="selectRace(races[3])">
+        <img [src]="getRaceIcon(races[3])" [alt]="races[3] + ' icon'">
+        <span>{{ races[3] }}</span>
+        <div class="best-streak">
+          Best: {{ getBestStreak(races[3]) }}
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <p>Undead is the coolest race in the game</p>
+  </div>
+</div>
