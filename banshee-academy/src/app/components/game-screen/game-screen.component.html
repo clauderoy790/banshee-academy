@@ -1,1 +1,55 @@
-<p>game-screen works!</p>
+<!-- src/app/components/game-screen/game-screen.component.html -->
+<div class="game-container">
+    <div class="header">
+      <div class="streaks">
+        <div class="streak current">Current: {{ currentStreak }}</div>
+        <div class="streak best">Best: {{ bestStreak }}</div>
+      </div>
+      <div class="timer">
+        <div class="timer-bar" [style.width.%]="timerPercentage"></div>
+      </div>
+    </div>
+    
+    <div class="card-display" [class.card-correct]="showCorrectAnimation" [class.card-incorrect]="showIncorrectAnimation">
+      <img [src]="currentCard?.imagePath || 'assets/images/placeholder.png'" [alt]="currentCard?.name">
+      <h2>{{ currentCard?.name }}</h2>
+      
+      <div class="cost-inputs">
+        <div class="cost-input">
+          <img src="assets/images/gold.png" alt="Gold">
+          <input type="number" [(ngModel)]="userAnswerGold" placeholder="Gold cost" [disabled]="isAnswerSubmitted">
+        </div>
+        
+        <div class="cost-input">
+          <img src="assets/images/wood.png" alt="Wood">
+          <input type="number" [(ngModel)]="userAnswerWood" placeholder="Wood cost" [disabled]="isAnswerSubmitted">
+        </div>
+      </div>
+      
+      <button class="submit-button" (click)="checkAnswer()" [disabled]="isAnswerSubmitted">Submit</button>
+      
+      <div class="feedback" *ngIf="isAnswerSubmitted">
+        <div class="feedback-text" [class.correct]="isAnswerCorrect" [class.incorrect]="!isAnswerCorrect">
+          {{ isAnswerCorrect ? 'Correct!' : 'Incorrect!' }}
+        </div>
+        
+        <div class="correct-answer" *ngIf="!isAnswerCorrect">
+          <p>Correct answer:</p>
+          <div class="costs">
+            <div class="cost">
+              <img src="assets/images/gold.png" alt="Gold">
+              <span>{{ currentCard?.goldCost }}</span>
+            </div>
+            <div class="cost">
+              <img src="assets/images/wood.png" alt="Wood">
+              <span>{{ currentCard?.woodCost }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <button class="back-button" (click)="goToMainMenu()">
+      <span class="material-icons">home</span> Main Menu
+    </button>
+  </div>

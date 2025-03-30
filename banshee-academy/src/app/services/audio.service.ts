@@ -2,6 +2,8 @@
 import { Injectable } from '@angular/core';
 import { Race } from '../models/race.model';
 
+const BG_VOLUME = 0.1;
+
 @Injectable({
   providedIn: 'root',
 })
@@ -11,6 +13,9 @@ export class AudioService {
   private buttonClickSound: HTMLAudioElement;
   private backgroundAudio: { [key: string]: HTMLAudioElement } = {};
   private currentBackground: HTMLAudioElement | null = null;
+  private currentRace?: Race;
+  private muted = false;
+  private readonly MUTE_STORAGE_KEY = 'banshee_academy_mute';
 
   constructor() {
     // Load sound effects
@@ -18,7 +23,7 @@ export class AudioService {
     this.incorrectSound = new Audio('assets/sounds/incorrect.mp3');
     this.buttonClickSound = new Audio('assets/sounds/button-click.mp3');
 
-    // Load background sounds for each race
+    // Load background music for each race
     this.backgroundAudio[Race.Undead] = new Audio(
       'assets/sounds/undead-background.mp3'
     );
@@ -32,41 +37,84 @@ export class AudioService {
       'assets/sounds/orc-background.mp3'
     );
 
-    // Set loop for background sounds
+    // Set loop/volume for background sounds
     Object.values(this.backgroundAudio).forEach((audio) => {
       audio.loop = true;
+      audio.volume = BG_VOLUME;
     });
+
+    this.loadMuteState();
+  }
+
+  private loadMuteState(): void {
+    const muteState = localStorage.getItem(this.MUTE_STORAGE_KEY);
+    if (muteState !== null) {
+      this.muted = muteState === 'true';
+    }
+  }
+
+  private saveMuteState(): void {
+    localStorage.setItem(this.MUTE_STORAGE_KEY, String(this.muted));
   }
 
   playCorrect(): void {
-    this.correctSound.play();
+    if (!this.muted) {
+      this.correctSound.play();
+    }
   }
 
   playIncorrect(): void {
-    this.incorrectSound.play();
+    if (!this.muted) {
+      this.incorrectSound.play();
+    }
   }
 
   playButtonClick(): void {
-    this.buttonClickSound.play();
+    if (!this.muted) {
+      this.buttonClickSound.play();
+    }
   }
 
-  playBackground(race: Race): void {
+  playBackground(race?: Race): void {
     // Stop current background if playing
-    if (this.currentBackground) {
+    if (race && this.currentRace != race && this.currentBackground) {
       this.currentBackground.pause();
       this.currentBackground.currentTime = 0;
     }
 
+    // set race
+    this.currentRace = race ?? this.currentRace ?? Race.Undead;
+
     // Start new background
-    this.currentBackground = this.backgroundAudio[race];
-    this.currentBackground.play();
+    this.currentBackground = this.backgroundAudio[this.currentRace];
+
+    if (!this.muted && this.currentBackground) {
+      this.currentBackground.play().catch((error) => {
+        console.error('Error playing background music:', error);
+      });
+    }
   }
 
-  stopBackground(): void {
-    if (this.currentBackground) {
-      this.currentBackground.pause();
-      this.currentBackground.currentTime = 0;
-      this.currentBackground = null;
+  isMuted(): boolean {
+    return this.muted;
+  }
+
+  setMute(mute: boolean): void {
+    this.muted = mute;
+    this.saveMuteState();
+
+    if (this.muted) {
+      // Mute all sounds
+      if (this.currentBackground) {
+        this.currentBackground.pause();
+      }
+    } else {
+      // Resume background music if it exists
+      if (this.currentBackground) {
+        this.currentBackground.play().catch((error) => {
+          console.error('Error playing background music:', error);
+        });
+      }
     }
   }
 }

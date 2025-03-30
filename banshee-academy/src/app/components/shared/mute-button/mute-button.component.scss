@@ -1,0 +1,27 @@
+/* src/app/components/shared/mute-button/mute-button.component.scss */
+.mute-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(42, 42, 42, 0.8);
+    border: 1px solid #9c60db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s;
+    padding: 0;
+    
+    &:hover {
+      background-color: rgba(58, 58, 58, 0.8);
+    }
+    
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }

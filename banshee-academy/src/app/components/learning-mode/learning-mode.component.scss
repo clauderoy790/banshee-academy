@@ -1,0 +1,150 @@
+/* src/app/components/learning-mode/learning-mode.component.scss */
+.learning-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1A1A1A;
+    color: #e0e0e0;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+    
+    h1 {
+      font-size: 2.2rem;
+      color: #9c60db;
+      margin-bottom: 5px;
+    }
+    
+    p {
+      font-size: 1.2rem;
+      color: #a0a0a0;
+    }
+  }
+  
+  .category-tabs {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    
+    &::-webkit-scrollbar {
+      height: 3px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background-color: #9c60db;
+      border-radius: 3px;
+    }
+  }
+  
+  .category-tab {
+    flex: 0 0 auto;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+    &:hover {
+      background-color: #363636;
+    }
+    
+    &.active {
+      background-color: #9c60db;
+      color: #fff;
+    }
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    overflow-y: auto;
+    padding-right: 5px;
+    
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background-color: #9c60db;
+      border-radius: 5px;
+    }
+  }
+  
+  .card {
+    display: flex;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    overflow: hidden;
+    
+    img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+    }
+    
+    .card-details {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1;
+      
+      h3 {
+        margin: 0 0 10px;
+        font-size: 1.2rem;
+      }
+      
+      .costs {
+        display: flex;
+        gap: 15px;
+        
+        .cost {
+          display: flex;
+          align-items: center;
+          
+          img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+          }
+          
+          span {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  
+  .back-button {
+    margin-top: auto;
+    align-self: center;
+    background-color: transparent;
+    border: 1px solid #9c60db;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #9c60db;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+      background-color: rgba(156, 96, 219, 0.1);
+    }
+    
+    .material-icons {
+      font-size: 1.2rem;
+      margin-right: 5px;
+    }
+  }

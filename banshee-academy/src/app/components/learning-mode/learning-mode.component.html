@@ -1,1 +1,40 @@
-<p>learning-mode works!</p>
+<!-- src/app/components/learning-mode/learning-mode.component.html -->
+<div class="learning-container">
+    <div class="header">
+      <h1>Learning Mode</h1>
+      <p>{{ selectedRace }}</p>
+    </div>
+    
+    <div class="category-tabs">
+      <button 
+        *ngFor="let category of categories" 
+        class="category-tab" 
+        [class.active]="selectedCategory === category"
+        (click)="selectCategory(category)">
+        {{ category }}
+      </button>
+    </div>
+    
+    <div class="cards-container">
+      <div class="card" *ngFor="let card of filteredCards">
+        <img [src]="getCardImage(card)" [alt]="card.name">
+        <div class="card-details">
+          <h3>{{ card.name }}</h3>
+          <div class="costs">
+            <div class="cost">
+              <img src="assets/images/gold.png" alt="Gold">
+              <span>{{ card.goldCost }}</span>
+            </div>
+            <div class="cost">
+              <img src="assets/images/wood.png" alt="Wood">
+              <span>{{ card.woodCost }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <button class="back-button" (click)="goBack()">
+      <span class="material-icons">arrow_back</span> Back to Menu
+    </button>
+  </div>

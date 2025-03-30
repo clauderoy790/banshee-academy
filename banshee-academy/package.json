@@ -6,7 +6,9 @@
     "start": "ng build && ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "find4200": "netstat -ano | findstr :4200",
+    "kill4200": "taskkill /PID thenumber /F"
   },
   "private": true,
   "dependencies": {

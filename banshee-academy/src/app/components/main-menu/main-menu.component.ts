@@ -1,5 +1,5 @@
 // src/app/components/main-menu/main-menu.component.ts
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Race, Difficulty } from '../../models/race.model';
 import { UserProgressService } from '../../services/user-progress.service';
@@ -10,16 +10,19 @@ import { NgFor } from '@angular/common';
   selector: 'app-main-menu',
   templateUrl: './main-menu.component.html',
   styleUrls: ['./main-menu.component.scss'],
-  imports: [NgFor]
+  imports: [],
 })
-export class MainMenuComponent {
+export class MainMenuComponent implements OnInit {
   races = Object.values(Race);
-  
+
   constructor(
     private router: Router,
     private progressService: UserProgressService,
     private audioService: AudioService
   ) {}
+  ngOnInit(): void {
+    this.audioService.playBackground();
+  }
 
   selectRace(race: Race): void {
     this.audioService.playButtonClick();
@@ -30,15 +33,26 @@ export class MainMenuComponent {
 
   getRaceIcon(race: Race): string {
     // Return the path to race icons
-    return `assets/images/icons/${race.toLowerCase().replace(' ', '')}_icon.png`;
+    return `assets/images/icons/${race
+      .toLowerCase()
+      .replace(' ', '')}_icon.png`;
   }
 
   getBestStreak(race: Race): number {
     // Return the highest streak across all difficulties
-    const easyStreak = this.progressService.getBestStreak(race, Difficulty.Easy);
-    const mediumStreak = this.progressService.getBestStreak(race, Difficulty.Medium);
-    const hardStreak = this.progressService.getBestStreak(race, Difficulty.Hard);
-    
+    const easyStreak = this.progressService.getBestStreak(
+      race,
+      Difficulty.Easy
+    );
+    const mediumStreak = this.progressService.getBestStreak(
+      race,
+      Difficulty.Medium
+    );
+    const hardStreak = this.progressService.getBestStreak(
+      race,
+      Difficulty.Hard
+    );
+
     return Math.max(easyStreak, mediumStreak, hardStreak);
   }
 }

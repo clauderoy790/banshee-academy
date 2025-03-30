@@ -1,1 +1,29 @@
-<p>mode-selection works!</p>
+<!-- src/app/components/mode-selection/mode-selection.component.html -->
+<div class="overlay">
+    <div class="popup-container">
+      <div class="popup-header">
+        <h2>Select Mode</h2>
+        <p>{{ selectedRace }}</p>
+      </div>
+      
+      <div class="mode-buttons">
+        <button class="mode-button" (click)="selectMode('play')">
+          <div class="icon">
+            <span class="material-icons">sports_esports</span>
+          </div>
+          <span>Play</span>
+        </button>
+        
+        <button class="mode-button" (click)="selectMode('learn')">
+          <div class="icon">
+            <span class="material-icons">school</span>
+          </div>
+          <span>Learn</span>
+        </button>
+      </div>
+      
+      <button class="back-button" (click)="goBack()">
+        <span class="material-icons">arrow_back</span> Back
+      </button>
+    </div>
+  </div>
