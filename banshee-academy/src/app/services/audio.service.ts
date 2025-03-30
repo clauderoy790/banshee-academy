@@ -84,6 +84,8 @@ export class AudioService {
 
     // set race
     this.currentRace = race ?? this.currentRace ?? Race.Undead;
+    console.log('current: ', this.currentRace);
+    
 
     // Start new background
     this.currentBackground = this.backgroundAudio[this.currentRace];
