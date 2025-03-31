@@ -15,7 +15,7 @@ import { NgFor } from '@angular/common';
 })
 export class LearningModeComponent implements OnInit {
   selectedRace: Race = Race.Undead; // Default
-  categories = ['All', 'Buildings', 'Units', 'Upgrades', 'Heroes'];
+  categories = ['All', 'Buildings', 'Units', 'Upgrades'];
   selectedCategory = 'All';
   allCards: Card[] = [];
   filteredCards: Card[] = [];
@@ -59,9 +59,6 @@ export class LearningModeComponent implements OnInit {
           break;
         case 'Upgrades':
           cardType = CardType.Upgrade;
-          break;
-        case 'Heroes':
-          cardType = CardType.Hero;
           break;
         default:
           cardType = CardType.Building;

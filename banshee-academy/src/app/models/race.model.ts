@@ -8,8 +8,7 @@ export enum Race {
   export enum CardType {
     Building = 'Building',
     Unit = 'Unit',
-    Upgrade = 'Upgrade',
-    Hero = 'Hero'
+    Upgrade = 'Upgrade'
   }
   
   export enum Difficulty {
