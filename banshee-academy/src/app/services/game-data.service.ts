@@ -4,10 +4,11 @@ import { Card } from '../models/card.model';
 import { CardType, Difficulty, Race } from '../models/race.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class GameDataService {
   private cards: Card[] = [
+    // ALL UPGRADES
     // Undead Upgrades
     {
       id: 'ud_unholy_strength',
@@ -16,8 +17,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_unholy_strength.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNUnholyStrength.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_improved_unholy_strength',
@@ -26,8 +27,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_improved_unholy_strength.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImprovedUnholyStrength.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_advanced_unholy_strength',
@@ -36,8 +37,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_advanced_unholy_strength.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNAdvancedUnholyStrength.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_creature_attack',
@@ -46,8 +47,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_creature_attack.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNCreatureAttack.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_improved_creature_attack',
@@ -56,8 +57,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_improved_creature_attack.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImprovedCreatureAttack.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_advanced_creature_attack',
@@ -66,8 +67,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_advanced_creature_attack.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNAdvancedCreatureAttack.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_unholy_armor',
@@ -76,8 +77,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_unholy_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNUnholyArmor.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_improved_unholy_armor',
@@ -86,8 +87,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_improved_unholy_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImprovedUnholyArmor.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_advanced_unholy_armor',
@@ -96,8 +97,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_advanced_unholy_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNAdvancedUnholyArmor.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_creature_carapace',
@@ -106,8 +107,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_creature_carapace.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNCreatureCarapace.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_improved_creature_carapace',
@@ -116,8 +117,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_improved_creature_carapace.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImprovedCreatureCarapace.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_advanced_creature_carapace',
@@ -126,8 +127,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_advanced_creature_carapace.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNAdvancedCreatureCarapace.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_necromancer_adept_training',
@@ -136,8 +137,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_necromancer_adept_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNNecromancerAdept.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_necromancer_master_training',
@@ -146,8 +147,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_necromancer_master_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNNecromancerMaster.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_banshee_adept_training',
@@ -156,8 +157,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_banshee_adept_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNBansheeAdept.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_banshee_master_training',
@@ -166,8 +167,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_banshee_master_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNBansheeMaster.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_cannibalize',
@@ -176,8 +177,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_cannibalize.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Cannibalize.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_ghoul_frenzy',
@@ -186,8 +187,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_ghoul_frenzy.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNGhoulFrenzy.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_web',
@@ -196,8 +197,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_web.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Web.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_burrow',
@@ -206,8 +207,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_burrow.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Cryptfiendburrow.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_stone_form',
@@ -216,8 +217,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_stone_form.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Stoneform.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_skeletal_mastery',
@@ -226,8 +227,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_skeletal_mastery.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNSkeletonMage.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_disease_cloud',
@@ -236,8 +237,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_disease_cloud.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Plaguecloud.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_exhume_corpses',
@@ -246,8 +247,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_exhume_corpses.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3PASBTNExhumeCorpses.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_destroyer_form',
@@ -256,8 +257,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_destroyer_form.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Destroyer.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ud_freezing_breath',
@@ -266,10 +267,10 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ud_freezing_breath.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Freezingbreath2.gif',
+      difficulty: [Difficulty.Hard],
     },
-    
+
     // Human Upgrades
     {
       id: 'hu_improved_masonry',
@@ -278,8 +279,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_improved_masonry.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNStoneArchitecture.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_advanced_masonry',
@@ -288,8 +289,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_advanced_masonry.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNArcaniteArchitecture.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_imbued_masonry',
@@ -298,8 +299,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_imbued_masonry.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImbuedMasonry.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_magic_sentry',
@@ -308,8 +309,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_magic_sentry.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3PASBTNMagicalSentry.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_fragmentation_shards',
@@ -318,8 +319,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_fragmentation_shards.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Fragmentationshards.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_iron_forged_swords',
@@ -328,8 +329,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_iron_forged_swords.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNSteelMelee.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_steel_forged_swords',
@@ -338,8 +339,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_steel_forged_swords.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNThoriumMelee.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_mithril_forged_swords',
@@ -348,8 +349,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_mithril_forged_swords.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNArcaniteMelee.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_black_gunpowder',
@@ -358,8 +359,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_black_gunpowder.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNHumanMissileUpOne.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_refined_gunpowder',
@@ -368,8 +369,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_refined_gunpowder.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNHumanMissileUpTwo.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_imbued_gunpowder',
@@ -378,8 +379,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_imbued_gunpowder.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNHumanMissileUpThree.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_iron_plating',
@@ -388,8 +389,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_iron_plating.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNHumanArmorUpOne.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_steel_plating',
@@ -398,8 +399,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_steel_plating.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNHumanArmorUpTwo.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_mithril_plating',
@@ -408,8 +409,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_mithril_plating.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNHumanArmorUpThree.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_studded_leather_armor',
@@ -418,8 +419,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_studded_leather_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNLeatherUpgradeOne.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_reinforced_leather_armor',
@@ -428,8 +429,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_reinforced_leather_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNLeatherUpgradeTwo.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_dragonhide_armor',
@@ -438,8 +439,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_dragonhide_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNLeatherUpgradeThree.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_priest_adept_training',
@@ -448,8 +449,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_priest_adept_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNPriestAdept.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_priest_master_training',
@@ -458,8 +459,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_priest_master_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNPriestMaster.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_sorceress_adept_training',
@@ -468,8 +469,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_sorceress_adept_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNSorceressAdept.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_sorceress_master_training',
@@ -478,8 +479,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_sorceress_master_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNSorceressMaster.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_defend',
@@ -488,8 +489,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_defend.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Defend.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_long_rifles',
@@ -498,8 +499,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_long_rifles.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNDwarvenLongRifle.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_control_magic',
@@ -508,8 +509,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_control_magic.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Controlmagic.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_flak_cannons',
@@ -518,8 +519,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_flak_cannons.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3PASBTNFlakCannons.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_flying_machine_bombs',
@@ -528,8 +529,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_flying_machine_bombs.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNHumanArtilleryUpOne.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_flare',
@@ -538,8 +539,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_flare.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Flare.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_animal_war_training',
@@ -548,8 +549,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_animal_war_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNAnimalWarTraining.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_cloud',
@@ -558,8 +559,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_cloud.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Cloud.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_sundering_blades',
@@ -568,8 +569,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_sundering_blades.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3PASBTNSunderingBlades.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_barrage',
@@ -578,8 +579,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_barrage.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Barrage.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'hu_storm_hammers',
@@ -588,20 +589,20 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/hu_storm_hammers.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Stormhammer.gif',
+      difficulty: [Difficulty.Hard],
     },
-    
+
     // Night Elf Upgrades
     {
       id: 'ne_natures_blessing',
-      name: 'Nature\'s Blessing',
+      name: "Nature's Blessing",
       race: Race.NightElf,
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_natures_blessing.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNNaturesBlessing.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_well_spring',
@@ -610,8 +611,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_well_spring.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNwellspring.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_strength_of_the_moon',
@@ -620,8 +621,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_strength_of_the_moon.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNStrengthOfTheMoon.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_improved_strength_of_the_moon',
@@ -630,8 +631,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_improved_strength_of_the_moon.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImprovedStrengthOfTheMoon.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_advanced_strength_of_the_moon',
@@ -640,8 +641,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_advanced_strength_of_the_moon.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNAdvancedStrengthOfTheMoon.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_strength_of_the_wild',
@@ -650,8 +651,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_strength_of_the_wild.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNStrengthOfTheWild.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_improved_strength_of_the_wild',
@@ -660,8 +661,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_improved_strength_of_the_wild.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImprovedStrengthOfTheWild.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_advanced_strength_of_the_wild',
@@ -670,8 +671,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_advanced_strength_of_the_wild.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNAdvancedStrengthOfTheWild.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_moon_armor',
@@ -680,8 +681,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_moon_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNMoonArmor.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_improved_moon_armor',
@@ -690,8 +691,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_improved_moon_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImprovedMoonArmor.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_advanced_moon_armor',
@@ -700,8 +701,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_advanced_moon_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNAdvancedMoonArmor.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_reinforced_hides',
@@ -710,8 +711,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_reinforced_hides.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNReinforcedHides.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_improved_reinforced_hides',
@@ -720,8 +721,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_improved_reinforced_hides.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImprovedReinforcedHides.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_advanced_reinforced_hides',
@@ -730,8 +731,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_advanced_reinforced_hides.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNAdvancedReinforcedHides.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_druid_of_the_talon_adept_training',
@@ -740,8 +741,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_druid_of_the_talon_adept_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNDOTAdeptTraining.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_druid_of_the_talon_master_training',
@@ -750,8 +751,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_druid_of_the_talon_master_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNDOTMasterTraining.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_druid_of_the_claw_adept_training',
@@ -760,8 +761,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_druid_of_the_claw_adept_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNDOCAdeptTraining.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_druid_of_the_claw_master_training',
@@ -770,8 +771,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_druid_of_the_claw_master_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNDOCMasterTraining.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_improved_bows',
@@ -780,8 +781,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_improved_bows.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImprovedBows.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_marksmanship',
@@ -790,8 +791,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_marksmanship.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNMarksmanship.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_sentinel',
@@ -800,8 +801,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_sentinel.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Sentinelability.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_moon_glaive',
@@ -810,8 +811,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_moon_glaive.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Moonglaive.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_vorpal_blades',
@@ -820,8 +821,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_vorpal_blades.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Vorpalblades.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_mark_of_the_talon',
@@ -830,18 +831,18 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_mark_of_the_talon.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Faeriefire.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_abolish_magic',
       name: 'Abolish Magic',
       race: Race.NightElf,
       type: CardType.Upgrade,
-      goldCost: 0,
-      woodCost: 0,
-      imagePath: 'assets/images/cards/ne_abolish_magic.png',
-      difficulty: []
+      goldCost: 50,
+      woodCost: 50,
+      imagePath: 'assets/images/cards/45px-AbolishMagic.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_mark_of_the_claw',
@@ -850,8 +851,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_mark_of_the_claw.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNEnchantedbears.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_resistant_skin',
@@ -860,8 +861,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_resistant_skin.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3PASBTNResistantSkin.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_hardened_skin',
@@ -870,8 +871,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_hardened_skin.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3PASBTNHardenedSkin.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_corrosive_breath',
@@ -880,8 +881,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_corrosive_breath.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Corrosivebreath2.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'ne_ultravision',
@@ -890,10 +891,9 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/ne_ultravision.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNultravision.png',
+      difficulty: [Difficulty.Hard],
     },
-    
     // Orc Upgrades
     {
       id: 'orc_spiked_barricades',
@@ -902,8 +902,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_spiked_barricades.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNSpikedBarricades.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_improved_spiked_barricades',
@@ -912,8 +912,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_improved_spiked_barricades.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNImprovedSpikedBarricades.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_reinforced_defenses',
@@ -922,8 +922,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_reinforced_defenses.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNReinforcedBurrows.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_steel_melee_weapons',
@@ -932,8 +932,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_steel_melee_weapons.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNOrcMeleeUpOne.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_thorium_melee_weapons',
@@ -942,8 +942,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_thorium_melee_weapons.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNOrcMeleeUpTwo.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_arcanite_melee_weapons',
@@ -952,8 +952,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_arcanite_melee_weapons.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNOrcMeleeUpThree.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_steel_ranged_weapons',
@@ -962,8 +962,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_steel_ranged_weapons.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNSteelRanged.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_thorium_ranged_weapons',
@@ -972,8 +972,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_thorium_ranged_weapons.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNThoriumRanged.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_arcanite_ranged_weapons',
@@ -982,8 +982,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_arcanite_ranged_weapons.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNArcaniteRanged.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_steel_armor',
@@ -992,8 +992,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_steel_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNSteelArmor.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_thorium_armor',
@@ -1002,8 +1002,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_thorium_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNThoriumArmor.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_arcanite_armor',
@@ -1012,8 +1012,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_arcanite_armor.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNArcaniteArmor.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_shaman_adept_training',
@@ -1022,8 +1022,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_shaman_adept_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNShamanAdept.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_shaman_master_training',
@@ -1032,8 +1032,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_shaman_master_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNShamanMaster.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_witch_doctor_adept_training',
@@ -1042,8 +1042,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_witch_doctor_adept_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNWitchDoctorAdept.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_witch_doctor_master_training',
@@ -1052,8 +1052,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_witch_doctor_master_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNWitchDoctorMaster.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_spirit_walker_adept_training',
@@ -1062,8 +1062,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_spirit_walker_adept_training.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNSpiritWalkerAdeptTraining.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_spirit_walker_master_training',
@@ -1072,8 +1072,9 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_spirit_walker_master_training.png',
-      difficulty: []
+      imagePath:
+        'assets/images/cards/45px-Wc3BTNSpiritWalkerMasterTraining.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_pillage',
@@ -1082,8 +1083,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_pillage.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Pillage.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_brute_strength',
@@ -1092,8 +1093,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_brute_strength.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNBerserk.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_troll_regeneration',
@@ -1102,8 +1103,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_troll_regeneration.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNRegenerate.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_berserker_upgrade',
@@ -1112,8 +1113,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_berserker_upgrade.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNHeadHunterBerserker.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_burning_oil',
@@ -1122,8 +1123,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_burning_oil.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Naphtha.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_ensnare',
@@ -1132,8 +1133,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_ensnare.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Ensnareability.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_envenomed_spears',
@@ -1142,8 +1143,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_envenomed_spears.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Envenomedspears.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_war_drums_damage_increase',
@@ -1152,8 +1153,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_war_drums_damage_increase.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNDrum.png',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_liquid_fire',
@@ -1162,8 +1163,8 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_liquid_fire.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Liquidfire.gif',
+      difficulty: [Difficulty.Hard],
     },
     {
       id: 'orc_pulverize_damage_increase',
@@ -1172,26 +1173,32 @@ export class GameDataService {
       type: CardType.Upgrade,
       goldCost: 0,
       woodCost: 0,
-      imagePath: 'assets/images/cards/orc_pulverize_damage_increase.png',
-      difficulty: []
+      imagePath: 'assets/images/cards/45px-Wc3BTNSmash.png',
+      difficulty: [Difficulty.Hard],
     },
   ];
 
-  constructor() { }
+  constructor() {
+    const names = this.cards.map(c => c.name);
+    console.log('names: ');
+    console.log(names);
+    
+    
+  }
 
   getCardsByRace(race: Race): Card[] {
-    return this.cards.filter(card => card.race === race);
+    return this.cards.filter((card) => card.race === race);
   }
 
   getCardsByRaceAndDifficulty(race: Race, difficulty: Difficulty): Card[] {
     return this.cards.filter(
-      card => card.race === race && card.difficulty.includes(difficulty)
+      (card) => card.race === race && card.difficulty.includes(difficulty)
     );
   }
 
   getCardsByRaceAndType(race: Race, type: CardType): Card[] {
     return this.cards.filter(
-      card => card.race === race && card.type === type
+      (card) => card.race === race && card.type === type
     );
   }
 }

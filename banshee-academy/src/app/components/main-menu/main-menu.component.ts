@@ -28,6 +28,7 @@ export class MainMenuComponent implements OnInit {
     this.audioService.playButtonClick();
     // Store selected race in a service or localStorage
     localStorage.setItem('selectedRace', race);
+    this.audioService.playBackground(race);
     this.router.navigate(['/mode-selection']);
   }
 
