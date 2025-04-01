@@ -1,6 +1,6 @@
 // from https://liquipedia.net/warcraft/Upgrades
 import { CardType, Difficulty, Race } from '../models/race.model';
-import { Card } from './../models/card.model';
+import { Card } from '../models/card.model';
 
 export const UD_UPGRADES: Card[] = [
   {
@@ -1177,103 +1177,5 @@ export const OC_UPGRADES: Card[] = [
     woodCost: 175,
     imagePath: 'assets/images/upgrades/45px-Wc3BTNSmash.png',
     difficulty: [Difficulty.Hard],
-  },
-];
-
-export const UD_BUILDINGS: Card[] = [
-  {
-    id: 'ud_temple_of_the_damned',
-    name: 'Temple of the Damned',
-    race: Race.Undead,
-    type: CardType.Building,
-    goldCost: 155,
-    woodCost: 140,
-    imagePath: 'assets/images/buildings/Templeofthedamned.png',
-    difficulty: [Difficulty.Easy, Difficulty.Medium, Difficulty.Hard],
-  },
-];
-export const HU_BUILDINGS: Card[] = [
-  {
-    id: 'hu_town_hall',
-    name: 'Town Hall',
-    race: Race.Human,
-    type: CardType.Building,
-    goldCost: 385,
-    woodCost: 205,
-    imagePath: 'assets/images/buildings/Townhall-red.jpg',
-    difficulty: [Difficulty.Easy, Difficulty.Medium, Difficulty.Hard],
-  },
-];
-export const NE_BUILDINGS: Card[] = [
-  {
-    id: 'todo',
-    name: 'todo',
-    race: Race.NightElf,
-    type: CardType.Building,
-    goldCost: -1,
-    woodCost: -1,
-    imagePath: 'todo',
-    difficulty: [Difficulty.Easy, Difficulty.Medium, Difficulty.Hard],
-  },
-];
-export const OC_BUILDINGS: Card[] = [
-  {
-    id: 'todo',
-    name: 'todo',
-    race: Race.Orc,
-    type: CardType.Building,
-    goldCost: -1,
-    woodCost: -1,
-    imagePath: 'todo',
-    difficulty: [Difficulty.Easy, Difficulty.Medium, Difficulty.Hard],
-  },
-];
-
-export const UD_UNITS: Card[] = [
-  {
-    id: 'todo',
-    name: 'todo',
-    race: Race.Undead,
-    type: CardType.Unit,
-    goldCost: -1,
-    woodCost: -1,
-    imagePath: 'todo',
-    difficulty: [Difficulty.Medium, Difficulty.Hard],
-  },
-];
-export const HU_UNITS: Card[] = [
-  {
-    id: 'todo',
-    name: 'todo',
-    race: Race.Human,
-    type: CardType.Unit,
-    goldCost: -1,
-    woodCost: -1,
-    imagePath: 'todo',
-    difficulty: [Difficulty.Medium, Difficulty.Hard],
-  },
-];
-export const NE_UNITS: Card[] = [
-  {
-    id: 'todo',
-    name: 'todo',
-    race: Race.NightElf,
-    type: CardType.Unit,
-    goldCost: -1,
-    woodCost: -1,
-    imagePath: 'todo',
-    difficulty: [Difficulty.Medium, Difficulty.Hard],
-  },
-];
-export const OC_UNITS: Card[] = [
-  {
-    id: 'todo',
-    name: 'todo',
-    race: Race.Orc,
-    type: CardType.Unit,
-    goldCost: -1,
-    woodCost: -1,
-    imagePath: 'todo',
-    difficulty: [Difficulty.Medium, Difficulty.Hard],
   },
 ];
