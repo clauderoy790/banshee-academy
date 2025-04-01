@@ -10,7 +10,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 125,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNUnholyStrength.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNUnholyStrength.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -20,7 +20,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 200,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNImprovedUnholyStrength.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImprovedUnholyStrength.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -30,7 +30,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 275,
     woodCost: 250,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNAdvancedUnholyStrength.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNAdvancedUnholyStrength.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -40,7 +40,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNCreatureAttack.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNCreatureAttack.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -50,7 +50,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 200,
     woodCost: 125,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNImprovedCreatureAttack.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImprovedCreatureAttack.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -60,7 +60,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 250,
     woodCost: 200,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNAdvancedCreatureAttack.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNAdvancedCreatureAttack.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -70,7 +70,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 125,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNUnholyArmor.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNUnholyArmor.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -80,7 +80,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 200,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNImprovedUnholyArmor.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImprovedUnholyArmor.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -90,7 +90,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 275,
     woodCost: 250,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNAdvancedUnholyArmor.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNAdvancedUnholyArmor.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -100,7 +100,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNCreatureCarapace.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNCreatureCarapace.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -110,7 +110,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 200,
     woodCost: 200,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNImprovedCreatureCarapace.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImprovedCreatureCarapace.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -120,7 +120,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 250,
     woodCost: 325,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNAdvancedCreatureCarapace.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNAdvancedCreatureCarapace.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -130,7 +130,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNNecromancerAdept.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNNecromancerAdept.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -140,7 +140,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNNecromancerMaster.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNNecromancerMaster.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -150,7 +150,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNBansheeAdept.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNBansheeAdept.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -160,7 +160,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNBansheeMaster.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNBansheeMaster.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -170,7 +170,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 0,
-    imagePath: 'assets/images/upgrades/45px-Cannibalize.gif',
+    imagePath: 'assets/images/upgrades/Cannibalize.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -180,7 +180,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNGhoulFrenzy.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNGhoulFrenzy.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -190,7 +190,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Web.gif',
+    imagePath: 'assets/images/upgrades/Web.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -200,7 +200,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Cryptfiendburrow.gif',
+    imagePath: 'assets/images/upgrades/Cryptfiendburrow.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -210,7 +210,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Stoneform.gif',
+    imagePath: 'assets/images/upgrades/Stoneform.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -220,7 +220,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNSkeletonMage.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNSkeletonMage.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -230,7 +230,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 200,
-    imagePath: 'assets/images/upgrades/45px-Plaguecloud.gif',
+    imagePath: 'assets/images/upgrades/Plaguecloud.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -240,7 +240,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3PASBTNExhumeCorpses.png',
+    imagePath: 'assets/images/upgrades/Wc3PASBTNExhumeCorpses.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -250,7 +250,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Destroyer.gif',
+    imagePath: 'assets/images/upgrades/Destroyer.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -260,7 +260,7 @@ export const UD_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 225,
-    imagePath: 'assets/images/upgrades/45px-Freezingbreath2.gif',
+    imagePath: 'assets/images/upgrades/Freezingbreath2.gif',
     difficulty: [Difficulty.Hard],
   },
 ];
@@ -273,7 +273,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 125,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNStoneArchitecture.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNStoneArchitecture.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -283,7 +283,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNArcaniteArchitecture.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNArcaniteArchitecture.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -293,7 +293,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 175,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNImbuedMasonry.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImbuedMasonry.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -303,7 +303,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3PASBTNMagicalSentry.png',
+    imagePath: 'assets/images/upgrades/Wc3PASBTNMagicalSentry.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -313,7 +313,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Fragmentationshards.gif',
+    imagePath: 'assets/images/upgrades/Fragmentationshards.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -323,7 +323,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNSteelMelee.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNSteelMelee.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -333,7 +333,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 175,
     woodCost: 175,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNThoriumMelee.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNThoriumMelee.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -343,7 +343,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 250,
     woodCost: 300,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNArcaniteMelee.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNArcaniteMelee.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -353,7 +353,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNHumanMissileUpOne.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNHumanMissileUpOne.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -363,7 +363,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 175,
     woodCost: 175,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNHumanMissileUpTwo.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNHumanMissileUpTwo.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -373,7 +373,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 250,
     woodCost: 300,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNHumanMissileUpThree.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNHumanMissileUpThree.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -383,7 +383,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 125,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNHumanArmorUpOne.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNHumanArmorUpOne.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -393,7 +393,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 175,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNHumanArmorUpTwo.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNHumanArmorUpTwo.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -403,7 +403,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 175,
     woodCost: 275,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNHumanArmorUpThree.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNHumanArmorUpThree.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -413,7 +413,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNLeatherUpgradeOne.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNLeatherUpgradeOne.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -423,7 +423,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 175,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNLeatherUpgradeTwo.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNLeatherUpgradeTwo.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -433,7 +433,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 200,
     woodCost: 250,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNLeatherUpgradeThree.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNLeatherUpgradeThree.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -443,7 +443,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNPriestAdept.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNPriestAdept.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -453,7 +453,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNPriestMaster.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNPriestMaster.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -463,7 +463,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNSorceressAdept.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNSorceressAdept.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -473,7 +473,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNSorceressMaster.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNSorceressMaster.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -483,7 +483,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Defend.gif',
+    imagePath: 'assets/images/upgrades/Defend.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -493,7 +493,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 125,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNDwarvenLongRifle.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNDwarvenLongRifle.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -503,7 +503,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Controlmagic.gif',
+    imagePath: 'assets/images/upgrades/Controlmagic.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -513,7 +513,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3PASBTNFlakCannons.png',
+    imagePath: 'assets/images/upgrades/Wc3PASBTNFlakCannons.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -523,7 +523,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNHumanArtilleryUpOne.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNHumanArtilleryUpOne.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -533,7 +533,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Flare.gif',
+    imagePath: 'assets/images/upgrades/Flare.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -543,7 +543,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 125,
     woodCost: 125,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNAnimalWarTraining.png',
+    imagePath: 'assets/images/upgrades/Wc3PASBTNAnimalWarTraining.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -553,7 +553,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Cloud.gif',
+    imagePath: 'assets/images/upgrades/Cloud.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -563,7 +563,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3PASBTNSunderingBlades.png',
+    imagePath: 'assets/images/upgrades/Wc3PASBTNSunderingBlades.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -573,7 +573,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Barrage.gif',
+    imagePath: 'assets/images/upgrades/Barrage.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -583,7 +583,7 @@ export const HU_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 125,
     woodCost: 225,
-    imagePath: 'assets/images/upgrades/45px-Stormhammer.gif',
+    imagePath: 'assets/images/upgrades/Stormhammer.gif',
     difficulty: [Difficulty.Hard],
   },
 ];
@@ -596,7 +596,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 200,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNNaturesBlessing.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNNaturesBlessing.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -606,7 +606,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNwellspring.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNwellspring.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -616,7 +616,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 125,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNStrengthOfTheMoon.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNStrengthOfTheMoon.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -627,7 +627,7 @@ export const NE_UPGRADES = [
     goldCost: 175,
     woodCost: 175,
     imagePath:
-      'assets/images/upgrades/45px-Wc3BTNImprovedStrengthOfTheMoon.png',
+      'assets/images/upgrades/Wc3BTNImprovedStrengthOfTheMoon.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -638,7 +638,7 @@ export const NE_UPGRADES = [
     goldCost: 225,
     woodCost: 275,
     imagePath:
-      'assets/images/upgrades/45px-Wc3BTNAdvancedStrengthOfTheMoon.png',
+      'assets/images/upgrades/Wc3BTNAdvancedStrengthOfTheMoon.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -648,7 +648,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNStrengthOfTheWild.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNStrengthOfTheWild.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -659,7 +659,7 @@ export const NE_UPGRADES = [
     goldCost: 175,
     woodCost: 175,
     imagePath:
-      'assets/images/upgrades/45px-Wc3BTNImprovedStrengthOfTheWild.png',
+      'assets/images/upgrades/Wc3BTNImprovedStrengthOfTheWild.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -670,7 +670,7 @@ export const NE_UPGRADES = [
     goldCost: 250,
     woodCost: 275,
     imagePath:
-      'assets/images/upgrades/45px-Wc3BTNAdvancedStrengthOfTheWild.png',
+      'assets/images/upgrades/Wc3BTNAdvancedStrengthOfTheWild.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -680,7 +680,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNMoonArmor.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNMoonArmor.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -690,7 +690,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 200,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNImprovedMoonArmor.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImprovedMoonArmor.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -700,7 +700,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 250,
     woodCost: 225,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNAdvancedMoonArmor.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNAdvancedMoonArmor.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -710,7 +710,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNReinforcedHides.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNReinforcedHides.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -720,7 +720,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 200,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNImprovedReinforcedHides.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImprovedReinforcedHides.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -730,7 +730,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 250,
     woodCost: 250,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNAdvancedReinforcedHides.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNAdvancedReinforcedHides.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -740,7 +740,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNDOTAdeptTraining.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNDOTAdeptTraining.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -750,7 +750,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNDOTMasterTraining.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNDOTMasterTraining.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -760,7 +760,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNDOCAdeptTraining.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNDOCAdeptTraining.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -770,7 +770,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNDOCMasterTraining.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNDOCMasterTraining.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -780,7 +780,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNImprovedBows.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImprovedBows.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -790,7 +790,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 175,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNMarksmanship.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNMarksmanship.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -800,7 +800,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Sentinelability.gif',
+    imagePath: 'assets/images/upgrades/Sentinelability.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -810,7 +810,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Moonglaive.gif',
+    imagePath: 'assets/images/upgrades/Moonglaive.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -820,7 +820,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 125,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Vorpalblades.gif',
+    imagePath: 'assets/images/upgrades/Vorpalblades.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -830,7 +830,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 25,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Faeriefire.gif',
+    imagePath: 'assets/images/upgrades/Faeriefire.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -840,7 +840,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-AbolishMagic.gif',
+    imagePath: 'assets/images/upgrades/AbolishMagic.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -850,7 +850,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 25,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNEnchantedbears.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNEnchantedbears.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -860,7 +860,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Wc3PASBTNResistantSkin.png',
+    imagePath: 'assets/images/upgrades/Wc3PASBTNResistantSkin.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -870,7 +870,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 175,
-    imagePath: 'assets/images/upgrades/45px-Wc3PASBTNHardenedSkin.png',
+    imagePath: 'assets/images/upgrades/Wc3PASBTNHardenedSkin.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -880,7 +880,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 125,
     woodCost: 225,
-    imagePath: 'assets/images/upgrades/45px-Corrosivebreath2.gif',
+    imagePath: 'assets/images/upgrades/Corrosivebreath2.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -890,7 +890,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNultravision.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNultravision.png',
     difficulty: [Difficulty.Hard],
   },
 ];
@@ -903,7 +903,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 25,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNSpikedBarricades.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNSpikedBarricades.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -913,7 +913,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNImprovedSpikedBarricades.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImprovedSpikedBarricades.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -923,7 +923,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 175,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNReinforcedBurrows.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNReinforcedBurrows.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -933,7 +933,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNOrcMeleeUpOne.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNOrcMeleeUpOne.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -943,7 +943,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNOrcMeleeUpTwo.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNOrcMeleeUpTwo.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -953,7 +953,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 200,
     woodCost: 225,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNOrcMeleeUpThree.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNOrcMeleeUpThree.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -963,7 +963,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNSteelRanged.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNSteelRanged.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -973,7 +973,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 175,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNThoriumRanged.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNThoriumRanged.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -983,7 +983,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 200,
     woodCost: 250,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNArcaniteRanged.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNArcaniteRanged.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -993,7 +993,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 150,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNSteelArmor.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNSteelArmor.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1003,7 +1003,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 225,
     woodCost: 200,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNThoriumArmor.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNThoriumArmor.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1013,7 +1013,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 300,
     woodCost: 325,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNArcaniteArmor.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNArcaniteArmor.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1023,7 +1023,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNShamanAdept.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNShamanAdept.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1033,7 +1033,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNShamanMaster.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNShamanMaster.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1043,7 +1043,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNWitchDoctorAdept.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNWitchDoctorAdept.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1053,7 +1053,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNWitchDoctorMaster.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNWitchDoctorMaster.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1064,7 +1064,7 @@ export const OC_UPGRADES: Card[] = [
     goldCost: 100,
     woodCost: 50,
     imagePath:
-      'assets/images/upgrades/45px-Wc3BTNSpiritWalkerAdeptTraining.png',
+      'assets/images/upgrades/Wc3BTNSpiritWalkerAdeptTraining.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1075,7 +1075,7 @@ export const OC_UPGRADES: Card[] = [
     goldCost: 100,
     woodCost: 150,
     imagePath:
-      'assets/images/upgrades/45px-Wc3BTNSpiritWalkerMasterTraining.png',
+      'assets/images/upgrades/Wc3BTNSpiritWalkerMasterTraining.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1085,7 +1085,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 25,
-    imagePath: 'assets/images/upgrades/45px-Pillage.gif',
+    imagePath: 'assets/images/upgrades/Pillage.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1095,7 +1095,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNBerserk.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNBerserk.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1105,7 +1105,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNRegenerate.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNRegenerate.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1115,7 +1115,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 175,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNHeadHunterBerserker.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNHeadHunterBerserker.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1125,7 +1125,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Naphtha.gif',
+    imagePath: 'assets/images/upgrades/Naphtha.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1135,7 +1135,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 50,
     woodCost: 75,
-    imagePath: 'assets/images/upgrades/45px-Ensnareability.gif',
+    imagePath: 'assets/images/upgrades/Ensnareability.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1145,7 +1145,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Envenomedspears.gif',
+    imagePath: 'assets/images/upgrades/Envenomedspears.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1155,7 +1155,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNDrum.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNDrum.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1165,7 +1165,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 75,
     woodCost: 125,
-    imagePath: 'assets/images/upgrades/45px-Liquidfire.gif',
+    imagePath: 'assets/images/upgrades/Liquidfire.gif',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1175,7 +1175,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 175,
-    imagePath: 'assets/images/upgrades/45px-Wc3BTNSmash.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNSmash.png',
     difficulty: [Difficulty.Hard],
   },
 ];
