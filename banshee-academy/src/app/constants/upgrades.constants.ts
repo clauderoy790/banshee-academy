@@ -263,6 +263,16 @@ export const UD_UPGRADES: Card[] = [
     imagePath: 'assets/images/upgrades/Freezingbreath2.gif',
     difficulty: [Difficulty.Hard],
   },
+  {
+    id: 'ud_backpack',
+    name: 'Backpack',
+    race: Race.Undead,
+    type: CardType.Upgrade,
+    goldCost: 50,
+    woodCost: 25,
+    imagePath: 'assets/images/upgrades/Wc3BTNPackBeast.png',
+    difficulty: [Difficulty.Hard],
+  },
 ];
 
 export const HU_UPGRADES: Card[] = [
@@ -586,6 +596,16 @@ export const HU_UPGRADES: Card[] = [
     imagePath: 'assets/images/upgrades/Stormhammer.gif',
     difficulty: [Difficulty.Hard],
   },
+  {
+    id: 'hu_backpack',
+    name: 'Backpack',
+    race: Race.Human,
+    type: CardType.Upgrade,
+    goldCost: 50,
+    woodCost: 25,
+    imagePath: 'assets/images/upgrades/Wc3BTNPackBeast.png',
+    difficulty: [Difficulty.Hard],
+  },
 ];
 
 export const NE_UPGRADES = [
@@ -626,8 +646,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 175,
     woodCost: 175,
-    imagePath:
-      'assets/images/upgrades/Wc3BTNImprovedStrengthOfTheMoon.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImprovedStrengthOfTheMoon.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -637,8 +656,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 225,
     woodCost: 275,
-    imagePath:
-      'assets/images/upgrades/Wc3BTNAdvancedStrengthOfTheMoon.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNAdvancedStrengthOfTheMoon.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -658,8 +676,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 175,
     woodCost: 175,
-    imagePath:
-      'assets/images/upgrades/Wc3BTNImprovedStrengthOfTheWild.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNImprovedStrengthOfTheWild.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -669,8 +686,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 250,
     woodCost: 275,
-    imagePath:
-      'assets/images/upgrades/Wc3BTNAdvancedStrengthOfTheWild.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNAdvancedStrengthOfTheWild.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -893,6 +909,16 @@ export const NE_UPGRADES = [
     imagePath: 'assets/images/upgrades/Wc3BTNultravision.png',
     difficulty: [Difficulty.Hard],
   },
+  {
+    id: 'ne_backpack',
+    name: 'Backpack',
+    race: Race.NightElf,
+    type: CardType.Upgrade,
+    goldCost: 50,
+    woodCost: 25,
+    imagePath: 'assets/images/upgrades/Wc3BTNPackBeast.png',
+    difficulty: [Difficulty.Hard],
+  },
 ];
 
 export const OC_UPGRADES: Card[] = [
@@ -1063,8 +1089,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 50,
-    imagePath:
-      'assets/images/upgrades/Wc3BTNSpiritWalkerAdeptTraining.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNSpiritWalkerAdeptTraining.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1074,8 +1099,7 @@ export const OC_UPGRADES: Card[] = [
     type: CardType.Upgrade,
     goldCost: 100,
     woodCost: 150,
-    imagePath:
-      'assets/images/upgrades/Wc3BTNSpiritWalkerMasterTraining.png',
+    imagePath: 'assets/images/upgrades/Wc3BTNSpiritWalkerMasterTraining.png',
     difficulty: [Difficulty.Hard],
   },
   {
@@ -1176,6 +1200,16 @@ export const OC_UPGRADES: Card[] = [
     goldCost: 100,
     woodCost: 175,
     imagePath: 'assets/images/upgrades/Wc3BTNSmash.png',
+    difficulty: [Difficulty.Hard],
+  },
+  {
+    id: 'orc_backpack',
+    name: 'Backpack',
+    race: Race.Orc,
+    type: CardType.Upgrade,
+    goldCost: 50,
+    woodCost: 25,
+    imagePath: 'assets/images/upgrades/Wc3BTNPackBeast.png',
     difficulty: [Difficulty.Hard],
   },
 ];

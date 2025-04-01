@@ -94,6 +94,16 @@ export const UD_UNITS: Card[] = [
     difficulty: [Difficulty.Medium, Difficulty.Hard],
   },
   {
+    id: 'ud_destroyer',
+    name: 'Destroyer',
+    race: Race.Undead,
+    type: CardType.Unit,
+    goldCost: 300,
+    woodCost: 85,
+    imagePath: 'assets/images/units/Wc3BTNDestroyer.png',
+    difficulty: [Difficulty.Medium, Difficulty.Hard],
+  },
+  {
     id: 'ud_frost_wyrm',
     name: 'Frost Wyrm',
     race: Race.Undead,
