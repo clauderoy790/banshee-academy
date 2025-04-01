@@ -9,8 +9,9 @@
     "test": "ng test",
     "find4200": "netstat -ano | findstr :4200",
     "kill4200": "taskkill /PID thenumber /F",
-    "build:prod": "ng build --configuration production --base-href=/your-repo-name/",
-    "deploy": "npx angular-cli-ghpages --dir=dist/your-project-name"
+    "build:prod": "ng build --configuration production --base-href=/banshee-academy/",
+    "deploy": "npx angular-cli-ghpages --dir=dist/banshee-academy/browser",
+    "build:and:deploy": "npm run build:prod && npm run deploy"
   },
   "private": true,
   "dependencies": {
