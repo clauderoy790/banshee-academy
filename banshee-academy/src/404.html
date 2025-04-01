@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found - Banshee Academy</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1A1A1A;
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .container {
+      max-width: 600px;
+      padding: 30px;
+      background-color: #2a2a2a;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      animation: fade-in 1s ease-out;
+    }
+    
+    .logo {
+      width: 150px;
+      height: auto;
+      margin-bottom: 20px;
+      animation: float 4s ease-in-out infinite;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      color: #9c60db;
+      margin-bottom: 15px;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 25px;
+    }
+    
+    .home-button {
+      background-color: #9c60db;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .home-button:hover {
+      background-color: #8a50c1;
+    }
+    
+    .banshee {
+      margin-top: 30px;
+      opacity: 0.7;
+      animation: drift 20s linear infinite;
+    }
+    
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-15px);
+      }
+    }
+    
+    @keyframes drift {
+      0% {
+        transform: translateX(-150%);
+      }
+      100% {
+        transform: translateX(150%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/images/banshee-academy-logo.png" alt="Banshee Academy Logo" class="logo">
+    <h1>404</h1>
+    <h2>Page Not Found</h2>
+    <p>The page you're looking for has been devoured by the Undead... or simply doesn't exist.</p>
+    <a href="/" class="home-button">Return to Home</a>
+  </div>
+  
+  <div class="banshee">
+    <svg width="100" height="80" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M50 0C40 0 35 10 35 20C35 25 37 30 40 35C30 40 20 50 20 65C20 75 30 80 40 80C45 80 48 78 50 75C52 78 55 80 60 80C70 80 80 75 80 65C80 50 70 40 60 35C63 30 65 25 65 20C65 10 60 0 50 0Z" fill="#9c60db" opacity="0.3"/>
+      <path d="M40 30C40 33.3137 37.3137 36 34 36C30.6863 36 28 33.3137 28 30C28 26.6863 30.6863 24 34 24C37.3137 24 40 26.6863 40 30Z" fill="#9c60db" opacity="0.6"/>
+      <path d="M72 30C72 33.3137 69.3137 36 66 36C62.6863 36 60 33.3137 60 30C60 26.6863 62.6863 24 66 24C69.3137 24 72 26.6863 72 30Z" fill="#9c60db" opacity="0.6"/>
+    </svg>
+  </div>
+  
+  <script>
+    // Auto redirect to homepage after 8 seconds
+    setTimeout(function() {
+      window.location.href = '/';
+    }, 8000);
+  </script>
+</body>
+</html>

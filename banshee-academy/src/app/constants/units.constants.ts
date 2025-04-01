@@ -1,5 +1,4 @@
-// from https://wowpedia.fandom.com/wiki/Warcraft_III_units
-
+// from https://liquipedia.net/warcraft/Units
 import { Card } from '../models/card.model';
 import { CardType, Difficulty, Race } from '../models/race.model';
 

@@ -53,11 +53,11 @@ export class GameScreenComponent implements OnInit, OnDestroy {
 
       // Set timer based on difficulty
       if (difficulty === Difficulty.Easy) {
-        this.timerValue = 10;
+        this.timerValue = 30;
       } else if (difficulty === Difficulty.Medium) {
-        this.timerValue = 6;
+        this.timerValue = 20;
       } else {
-        this.timerValue = 4;
+        this.timerValue = 10;
       }
     }
 
@@ -150,8 +150,10 @@ export class GameScreenComponent implements OnInit, OnDestroy {
     this.isAnswerSubmitted = true;
 
     // Check if answers are correct
-    const isGoldCorrect = this.userAnswerGold === this.currentCard.goldCost;
-    const isWoodCorrect = this.userAnswerWood === this.currentCard.woodCost;
+    const gold = this.userAnswerGold ?? 0;
+    const wood = this.userAnswerWood ?? 0;
+    const isGoldCorrect = gold === this.currentCard.goldCost;
+    const isWoodCorrect = wood === this.currentCard.woodCost;
     this.isAnswerCorrect = isGoldCorrect && isWoodCorrect;
 
     if (this.isAnswerCorrect) {

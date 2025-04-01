@@ -1,4 +1,4 @@
-// from https://wowpedia.fandom.com/wiki/Warcraft_III_structures
+// from https://liquipedia.net/warcraft/Buildings
 import { Card } from '../models/card.model';
 import { CardType, Difficulty, Race } from '../models/race.model';
 

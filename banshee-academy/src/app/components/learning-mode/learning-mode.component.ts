@@ -5,13 +5,13 @@ import { AudioService } from '../../services/audio.service';
 import { GameDataService } from '../../services/game-data.service';
 import { Race, CardType } from '../../models/race.model';
 import { Card } from '../../models/card.model';
-import { NgFor } from '@angular/common';
+import { NgFor, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-learning-mode',
   templateUrl: './learning-mode.component.html',
   styleUrls: ['./learning-mode.component.scss'],
-  imports: [NgFor]
+  imports: [NgFor, NgIf]
 })
 export class LearningModeComponent implements OnInit {
   selectedRace: Race = Race.Undead; // Default

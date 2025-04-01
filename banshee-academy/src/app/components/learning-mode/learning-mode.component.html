@@ -21,11 +21,11 @@
         <div class="card-details">
           <h3>{{ card.name }}</h3>
           <div class="costs">
-            <div class="cost">
+            <div *ngIf="card.goldCost" class="cost">
               <img src="assets/images/gold.png" alt="Gold">
               <span>{{ card.goldCost }}</span>
             </div>
-            <div class="cost">
+            <div *ngIf="card.woodCost" class="cost">
               <img src="assets/images/wood.png" alt="Wood">
               <span>{{ card.woodCost }}</span>
             </div>

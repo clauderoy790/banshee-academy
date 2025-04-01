@@ -38,24 +38,24 @@ export class GameDataService {
     // Initialize race map
     this.cardsByRace = new Map<Race, Card[]>();
     this.cardsByRace.set(Race.Undead, [
-      ...UD_UPGRADES,
       ...UD_BUILDINGS,
       ...UD_UNITS,
+      ...UD_UPGRADES,
     ]);
     this.cardsByRace.set(Race.Human, [
-      ...HU_UPGRADES,
       ...HU_BUILDINGS,
       ...HU_UNITS,
+      ...HU_UPGRADES,
     ]);
     this.cardsByRace.set(Race.NightElf, [
-      ...NE_UPGRADES,
       ...NE_BUILDINGS,
       ...NE_UNITS,
+      ...NE_UPGRADES,
     ]);
     this.cardsByRace.set(Race.Orc, [
-      ...OC_UPGRADES,
       ...OC_BUILDINGS,
       ...OC_UNITS,
+      ...OC_UPGRADES,
     ]);
 
     // Initialize race and type map for quick lookups
