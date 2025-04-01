@@ -1,12 +1,12 @@
 # Banshee Academy
 
-![Banshee Academy Logo](banshee-academy/src/assets/images/banshee-academy-logo-alpha.png)
+<img src="src/assets/images/banshee-academy-logo-alpha.png" width="200" alt="Banshee Academy Logo">
 
 A Progressive Web App (PWA) designed to help Warcraft 3 players memorize the resource costs of buildings, units, and upgrades across all races, with a focus on the Undead faction.
 
 ## 📱 Live Demo
 
-Check out the live application: [Banshee Academy](https://yourusername.github.io/banshee-academy/)
+Check out the live application: [Banshee Academy](https://clauderoy790.github.io/banshee-academy/)
 
 ## ✨ Features
 
