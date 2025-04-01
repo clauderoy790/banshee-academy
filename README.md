@@ -16,7 +16,7 @@ Check out the live application: [Banshee Academy](https://clauderoy790.github.io
 - **Multi-Race Support**: Practice with Undead, Human, Night Elf, and Orc
 - **Learning Mode**: Browse through cards to study resource costs
 - **Game Mode**: Test your knowledge with timed challenges
-- **Difficulty Levels**: Easy (10s), Medium (6s), Hard (4s) per card
+- **Difficulty Levels**: Easy (Buildings only, 30s), Medium (Buildings and units, 20s), Hard (Buildings, units, and upgrades, 10s) per card
 - **Progress Tracking**: Track your best streaks for each race and difficulty
 - **Responsive Design**: Works on all device sizes
 - **Race-Specific Audio**: Themed background music for each race
@@ -28,21 +28,6 @@ Check out the live application: [Banshee Academy](https://clauderoy790.github.io
 - Local Storage for progress tracking
 - Service Workers for offline capabilities
 - CSS Animations for a polished user experience
-
-## 📖 How to Use
-
-1. **Select a Race**: Choose from Undead, Human, Night Elf, or Orc
-2. **Choose Mode**: 
-   - **Learn Mode**: Browse through cards to study resource costs
-   - **Play Mode**: Test your knowledge in a game format
-3. **Select Difficulty** (Play Mode only):
-   - **Easy**: 10 seconds per card, basic buildings and units
-   - **Medium**: 6 seconds per card, more advanced units
-   - **Hard**: 4 seconds per card, all units and buildings
-4. **Game Screen**:
-   - Enter the gold and lumber costs for the displayed card
-   - Submit before time runs out
-   - Track your current streak and best streak
 
 ## 🛠️ Development Setup
 
@@ -56,7 +41,7 @@ Check out the live application: [Banshee Academy](https://clauderoy790.github.io
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/banshee-academy.git
+   git clone https://github.com/clauderoy790/banshee-academy.git
    cd banshee-academy
    ```
 
@@ -67,7 +52,7 @@ Check out the live application: [Banshee Academy](https://clauderoy790.github.io
 
 3. Start the development server:
    ```bash
-   ng serve
+   npm run start
    ```
 
 4. Open your browser and navigate to `http://localhost:4200/`
