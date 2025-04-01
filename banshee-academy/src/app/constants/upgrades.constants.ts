@@ -276,6 +276,27 @@ export const UD_UPGRADES: Card[] = [
 ];
 
 export const HU_UPGRADES: Card[] = [
+  
+  {
+    id: 'hu_improved_lumber_harvesting',
+    name: 'Improved Lumber Harvesting',
+    race: Race.Human,
+    type: CardType.Upgrade,
+    goldCost: 100,
+    woodCost: 0,
+    imagePath: 'assets/images/upgrades/Wc3BTNHumanLumberUpgrade1.png',
+    difficulty: [Difficulty.Hard],
+  },
+  {
+    id: 'hu_advanced_lumber_harvesting',
+    name: 'Advanced Lumber Harvesting',
+    race: Race.Human,
+    type: CardType.Upgrade,
+    goldCost: 200,
+    woodCost: 0,
+    imagePath: 'assets/images/upgrades/Wc3BTNHumanLumberUpgrade2.png',
+    difficulty: [Difficulty.Hard],
+  },
   {
     id: 'hu_improved_masonry',
     name: 'Improved Masonry',
@@ -846,7 +867,7 @@ export const NE_UPGRADES = [
     type: CardType.Upgrade,
     goldCost: 25,
     woodCost: 100,
-    imagePath: 'assets/images/upgrades/Faeriefire.gif',
+    imagePath: 'assets/images/upgrades/Wc3BTNEnchantedcrows.png',
     difficulty: [Difficulty.Hard],
   },
   {
